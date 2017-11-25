@@ -3,7 +3,7 @@
  * http://www.templatemo.com/tm-475-holiday
  *
  * COLOR CODES
- * Yellow	#FCDD44
+ * Yellow	#cf94fb
  *
  */
 
@@ -32,14 +32,14 @@ body { overflow-x: hidden; }
 }
 .tm-site-name-container { padding-top: 20px; }
 .tm-site-name {
-	color: #FCDD44;
+	color: #cf94fb;
 	font-size: 27px;
 	font-weight: 600;
 	text-transform: uppercase;
 }
 .tm-site-name:hover,
 .tm-site-name:focus {
-	color: #FF720B;
+	color: #fff;
 }
 .mobile-menu-icon { display: none; }
 .tm-nav {
@@ -60,7 +60,7 @@ body { overflow-x: hidden; }
 .tm-nav li a.active,
 .tm-nav li a:focus,
 .tm-nav li a:hover {
-	background: #FCDD44;
+	background: #cf94fb;
 	color: #000;
 }
 
@@ -100,10 +100,10 @@ body { overflow-x: hidden; }
 	font-weight: 600;
 }
 .tm-banner-subtitle { font-size: 34px; }
-.tm-yellow-text { color: #FCDD44; }
+.tm-yellow-text { color: #cf94fb; }
 .tm-banner-link {
-	background: rgba(252, 221, 68, 0.39) none repeat scroll 0% 0%;
-	border: 1px solid #D2B731;
+	background: #cf94fb none repeat scroll 0% 0%;
+	border: 1px solid #cf94fb;
 	color: #FFF;
 	font-weight: 600;
 	display: inline-block;
@@ -113,8 +113,8 @@ body { overflow-x: hidden; }
 }
 .tm-banner-link:hover,
 .tm-banner-link:focus {
-	background: rgba(252, 221, 68, 1);
-	color: #000;
+	background: rgba(207, 148, 251, .5);
+	color: #fff;
 }
 .flexslider.flexslider-banner {
 	max-width: 100%;
@@ -125,7 +125,7 @@ body { overflow-x: hidden; }
 	text-align: center;
 }
 .flexslider.flexslider-banner .flex-direction-nav a:before {
-	color: #FCDD44;
+	color: #cf94fb;
 }
 .flex-direction-nav a {
 	height: 50px;
@@ -139,7 +139,7 @@ body { overflow-x: hidden; }
 }
 .form-control {	border-radius: 0; }
 .form-control:focus {
-	border-color: #FCDD44;
+	border-color: #cf94fb;
 	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(252, 221, 68, 0.6);
 }
 .tm-yellow-gradient-bg {
@@ -284,7 +284,7 @@ body { overflow-x: hidden; }
 	padding-bottom: 20px;
 }
 .tm-copyright-text a {
-	color: #FCDD44;
+	color: #cf94fb;
 }
 
 .tm-copyright-text a:hover {
@@ -333,7 +333,7 @@ hr { border-top: 1px solid #111010; }
 }
 .tm-home-box-2-link:hover,
 .tm-home-box-2-link:focus {
-	color: #FCDD44;
+	color: #cf94fb;
 }
 .border-left { border-left: 1px solid #DDD; }
 .border-right {	border-right: 1px solid #DDD; }
@@ -501,7 +501,7 @@ hr { border-top: 1px solid #111010; }
 .tm-testimonials-box {
 	width: 272px;
 	height: 530px;
-	background-color: #E8BA0F;
+	background-color: rgb(207, 148, 251);
 	float: left;
 }
 .tm-testimonials-title {
@@ -800,7 +800,7 @@ hr { border-top: 1px solid #111010; }
 	.mobile-menu-icon {
 	    display: block;
 	    cursor: pointer;
-	    color: #FCDD44;
+	    color: #cf94fb;
 	    font-size: 30px;
 	    position: fixed;
 	    top: 15px;
@@ -900,4 +900,24 @@ hr { border-top: 1px solid #111010; }
 
 @media screen and (max-width: 400px) {
 	.tm-section-title {	font-size: 28px; }
+}
+
+.tm-desc {
+	background: #fff;
+	padding: 24px 0;
+}
+.tm-images {
+	margin-top: 24px;
+}
+.tm-images img {
+	max-width: 100%;
+	height: auto;
+	margin-bottom: 24px;
+}
+.tm-youtube {
+	margin-top: 32px;
+	text-align: center;
+}
+.tm-youtube iframe {
+	max-width: 100%;
 }
