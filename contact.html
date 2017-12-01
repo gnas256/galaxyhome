@@ -15,7 +15,12 @@ http://www.templatemo.com/tm-475-holiday
 	<link href="css/bootstrap-datetimepicker.min.css" rel="stylesheet">  
 	<link href="css/flexslider.css" rel="stylesheet">
 	<link href="css/templatemo-style.css" rel="stylesheet">
-
+	<link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+	<style type="text/css">
+		#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+		/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+		   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+	</style>
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -76,9 +81,11 @@ http://www.templatemo.com/tm-475-holiday
 						<img src="img/world-map.png" alt="image" class="contact-image" />
 						<div class="contact-text">
 							<h2 class="slider-title">Đặt hàng sản phẩm độc lạ</h2>
-							<h3 class="slider-subtitle">Với những sản phẩm không có trong hệ thống, bạn có thể đặt hàng với chúng tôi</h3>
-							<p class="slider-description">Đặt những món quà mà bạn thích để nhận mức ưu đãi giảm giá hơn 15% cho những sản phẩm đặt trước <br><br>
-                            Cam kết hàng về sau 10 ngày. 50% tiền cọc. Nhanh tay cho ngày giáng sinh đang tới gần</p>
+							<p style='font-size: 18px; line-height: 1.5'>
+								Với những sản phẩm không có trong hệ thống, bạn có thể đặt hàng với chúng tôi <br><br>
+								Đặt những món quà mà bạn thích để nhận mức ưu đãi giảm giá hơn 15% cho những sản phẩm đặt trước
+							</p>
+							<p style='margin-top: 24px; font-size: 14px;'>Cam kết hàng về sau 10 ngày. 50% tiền cọc. Nhanh tay cho ngày giáng sinh đang tới gần</p>
 							<div class="slider-social">
 								<a href="#" class="tm-social-icon"><i class="fa fa-facebook"></i></a>
 								<!-- <a href="#" class="tm-social-icon"><i class="fa fa-twitter"></i></a>
@@ -106,7 +113,7 @@ http://www.templatemo.com/tm-475-holiday
 				<!-- contact form -->
 				<form action="#" method="post" class="tm-contact-form">
 					<div class="col-lg-6 col-md-6">
-						<div id="google-map"></div>
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.2530032933246!2d105.79248661505088!3d21.022560386001707!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab5a9731c34b%3A0x3dc14ed4a54e08ef!2zQ2FmZSBL4bq7IEPDs3Q!5e0!3m2!1sen!2s!4v1512138573319" width="100%" height="360" frameborder="0" style="border:0" allowfullscreen></iframe>
 						<div class="contact-social">
 							<a href="#" class="tm-social-icon tm-social-facebook"><i class="fa fa-facebook"></i></a>
 				      		<!-- <a href="#" class="tm-social-icon tm-social-dribbble"><i class="fa fa-dribbble"></i></a>
@@ -116,21 +123,44 @@ http://www.templatemo.com/tm-475-holiday
 						</div>
 					</div> 
 					<div class="col-lg-6 col-md-6 tm-contact-form-input">
-						<div class="form-group">
-							<input type="text" id="contact_name" class="form-control" placeholder="NAME" />
-						</div>
-						<div class="form-group">
-							<input type="email" id="contact_email" class="form-control" placeholder="EMAIL" />
-						</div>
-						<div class="form-group">
-							<input type="text" id="contact_subject" class="form-control" placeholder="SUBJECT" />
-						</div>
-						<div class="form-group">
-							<textarea id="contact_message" class="form-control" rows="6" placeholder="MESSAGE"></textarea>
-						</div>
-						<div class="form-group">
-							<button class="tm-submit-btn" type="submit" name="submit">Submit now</button> 
-						</div>               
+						<!-- Begin MailChimp Signup Form -->
+						<div id="mc_embed_signup">
+							<form action="https://fb.us17.list-manage.com/subscribe/post?u=15e6cc27c4de4bb8ed3a45086&amp;id=51f002f087" 
+										method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+							<div id="mc_embed_signup_scroll">
+								<h2>Subscribe to our mailing list</h2>
+								<div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+								<div class="mc-field-group">
+									<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span></label>
+									<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+								</div>
+								<div class="mc-field-group">
+									<label for="mce-MMERGE1">Your name </label>
+									<input type="text" value="" name="MMERGE1" class="" id="mce-MMERGE1">
+								</div>
+								<div class="mc-field-group">
+									<label for="mce-MMERGE2">Product? </label>
+									<select name="MMERGE2" class="" id="mce-MMERGE2">
+										<option value=""></option>
+										<option value="First Choice">First Choice</option>
+										<option value="Second Choice">Second Choice</option>
+										<option value="Third Choice">Third Choice</option>
+									</select>
+								</div>
+								<div id="mce-responses" class="clear">
+									<div class="response" id="mce-error-response" style="display:none"></div>
+									<div class="response" id="mce-success-response" style="display:none"></div>
+								</div>
+								<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+						    <div style="position: absolute; left: -5000px;" aria-hidden="true">
+						    	<input type="text" name="b_15e6cc27c4de4bb8ed3a45086_51f002f087" tabindex="-1" value=""/>
+						    </div>
+						    <div class="clear">
+						    	<input type="submit" value="Đăng ký nhận tin" name="subscribe" id="mc-embedded-subscribe" class="button">
+						    </div>
+							</div>
+						</form>
+						<!--End mc_embed_signup-->               
 					</div>
 				</form>
 			</div>			
@@ -148,43 +178,7 @@ http://www.templatemo.com/tm-475-holiday
 	<script type="text/javascript" src="js/jquery.flexslider-min.js"></script>			<!-- flexslider js -->
 	<script type="text/javascript" src="js/templatemo-script.js"></script>      		<!-- Templatemo Script -->
 	<script>
-		/* Google map
-      	------------------------------------------------*/
-      	var map = '';
-      	var center;
-
-      	function initialize() {
-	        var mapOptions = {
-	          	zoom: 14,
-	          	center: new google.maps.LatLng(21.022661, 105.794718),
-	          	scrollwheel: false
-        	};
-        
-	        map = new google.maps.Map(document.getElementById('google-map'),  mapOptions);
-
-	        google.maps.event.addDomListener(map, 'idle', function() {
-	          calculateCenter();
-	        });
-        
-	        google.maps.event.addDomListener(window, 'resize', function() {
-	          map.setCenter(center);
-	        });
-      	}
-
-	    function calculateCenter() {
-	        center = map.getCenter();
-	    }
-
-	    function loadGoogleMap(){
-	        var script = document.createElement('script');
-	        script.type = 'text/javascript';
-	        script.src = 'https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&' + 'callback=initialize';
-	        document.body.appendChild(script);
-	    }
-	
-      	// DOM is ready
 		$(function() {
-
 			// https://css-tricks.com/snippets/jquery/smooth-scrolling/
 			$('a[href*=#]:not([href=#])').click(function() {
 				if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
@@ -204,10 +198,13 @@ http://www.templatemo.com/tm-475-holiday
 		  		controlNav: false,
 		  		directionNav: false
 		  	});
-
-		  	// Google Map
-		  	loadGoogleMap();
 		  });
+	</script>
+
+	<!-- Mailchimp -->
+	<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+	<script type='text/javascript'>
+		(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='MMERGE1';ftypes[1]='text';fnames[2]='MMERGE2';ftypes[2]='dropdown';}(jQuery));var $mcj = jQuery.noConflict(true);
 	</script>
 </body>
 </html>

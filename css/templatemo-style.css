@@ -908,6 +908,10 @@ hr { border-top: 1px solid #111010; }
 }
 .tm-images {
 	margin-top: 24px;
+	text-align: center;
+}
+.tm-images > * {
+	width: 100% !important;
 }
 .tm-images img {
 	max-width: 100%;
